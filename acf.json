@@ -72,8 +72,8 @@
                             },
                              {
                                 "key": "field_5fa3e0a1ba912",
-                                "label": "manual2",
-                                "name": "manual2",
+                                "label": "manual2222",
+                                "name": "manual2222",
                                 "type": "wysiwyg",
                                 "instructions": "",
                                 "required": 0,
@@ -85,7 +85,7 @@
                                 },
                                 
                                 "show_in_graphql": 1,
-                                "default_value": "manual",
+                                "default_value": "det funkar!",
                                 "tabs": "all",
                                 "toolbar": "full",
                                 "media_upload": 1,
