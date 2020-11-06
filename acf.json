@@ -1,0 +1,243 @@
+[
+    {
+        "key": "group_5fa3dff2adb15",
+        "title": "THE LOOP",
+        "fields": [
+            {
+                "key": "field_5fa3e00b227e5",
+                "label": "Sidinnehåll",
+                "name": "modules",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "show_in_graphql": 1,
+                "layouts": {
+                    "layout_5fa3e01a4f10e": {
+                        "key": "layout_5fa3e01a4f10e",
+                        "name": "hero_mod",
+                        "label": "Hero",
+                        "display": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_5fa3e089ba91a",
+                                "label": "Bakgrundsbild",
+                                "name": "background",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "return_format": "url",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": ""
+                            },
+                            {
+                                "key": "field_5fa3e0a1ba91b",
+                                "label": "Text",
+                                "name": "text",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+
+                                "show_in_graphql": 1,
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                             {
+                                "key": "field_5fa3e0a1ba912",
+                                "label": "manual2",
+                                "name": "manual2",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                
+                                "show_in_graphql": 1,
+                                "default_value": "manual",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_5fa3e14bba91c",
+                                "label": "Knappar",
+                                "name": "buttons",
+                                "type": "flexible_content",
+                                "instructions": "Lägg till knappar för sidan",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "show_in_graphql": 1,
+                                "layouts": {
+                                    "layout_5fa3e15a0d185": {
+                                        "key": "layout_5fa3e15a0d185",
+                                        "name": "knappar",
+                                        "label": "Knappar",
+                                        "display": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_5fa3e170ba91d",
+                                                "label": "Knapp",
+                                                "name": "button",
+                                                "type": "group",
+                                                "instructions": "Inställningar för knapp.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "show_in_graphql": 1,
+                                                "layout": "block",
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_5fa3e19bba91e",
+                                                        "label": "Text",
+                                                        "name": "text",
+                                                        "type": "text",
+                                                        "instructions": "Text för knapp",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "default_value": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "maxlength": ""
+                                                    },
+                                                    {
+                                                        "key": "field_5fa3e1a7ba91f",
+                                                        "label": "Url för knapp",
+                                                        "name": "url",
+                                                        "type": "link",
+                                                        "instructions": "Länk för knapp",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "return_format": "url"
+                                                    },
+                                                    {
+                                                        "key": "field_5fa3e1c7ba920",
+                                                        "label": "Färg på knapp",
+                                                        "name": "style",
+                                                        "type": "color_picker",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": ""
+                                                    },
+                                                    {
+                                                        "key": "field_5fa4219392eb1",
+                                                        "label": "Transparent bakgrund",
+                                                        "name": "transparent",
+                                                        "type": "true_false",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "show_in_graphql": 1,
+                                                        "message": "",
+                                                        "default_value": 0,
+                                                        "ui": 0,
+                                                        "ui_on_text": "",
+                                                        "ui_off_text": ""
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                },
+                                "button_label": "Add Row",
+                                "min": "",
+                                "max": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "Lägg till innehåll",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_graphql": 1,
+        "graphql_field_name": "ACF_CONTENT_LOOP"
+    }
+]
